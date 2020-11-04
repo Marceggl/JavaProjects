@@ -10,8 +10,6 @@ public class Exercicio_2 {
 			System.out.print("Digite um número real: ");
 			vet[i] = input.nextFloat();
 		}
-		for(i=vet.length-1; i >= 0; i--) {
-			System.out.println(vet[i]);
-		}
+		for(i=vet.length-1; i >= 0; i--) {System.out.println(vet[i]);}
 	}
 }

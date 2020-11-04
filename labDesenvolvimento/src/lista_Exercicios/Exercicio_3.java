@@ -14,13 +14,15 @@ public class Exercicio_3 {
 		}
 		for(i=0; i<10;i++) {
 			if(vet[i] != 'a' && vet[i] != 'e' && vet[i] != 'i' && vet[i] != 'o' && vet[i] != 'u') {
+				System.out.print("| "+vet[i]+" |");
 				consoantes ++;
 			}else {
 				vogais ++;
 			}
 		}
-		System.out.print("Número de consoantes encontradas: " + consoantes + "\n");
+		System.out.print("\nNúmero de consoantes encontradas: " + consoantes + "\n");
 		System.out.print("Número de vogais encontradas: " + vogais + "\n");
-		
 	}
 }
+
+
