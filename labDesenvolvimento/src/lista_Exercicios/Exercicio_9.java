@@ -21,7 +21,6 @@ public class Exercicio_9 {
 		centena = x;
 		System.out.printf("%d Centena(s), %d Dezena(s) e %d unidade(s)",centena, dezena, unidade);
 	}
-	
 	//Entrada
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

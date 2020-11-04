@@ -1,21 +1,17 @@
 //6) Faça um Programa que leia dois vetores com 10 elementos cada. Gere um terceiro vetor
 //de 20 elementos, cujos valores deverão ser compostos pelos elementos intercalados dos dois
-//outros vetores
+//outros vetores;
 package lista_Exercicios;
 import java.util.Scanner;
 
 public class Exercicio_6 {
 	public static void main(String[] args) {
-		
 		Scanner input = new Scanner(System.in);
-		
 		int i,iV=0;
 		boolean v = true;
 		String vet1[] = new String[10];
 		String vet2[] = new String[10];
-		String vetAll[] = new String[20];
-		
-		
+		String vetAll[] = new String[20];		
 		for (i = 0;i<20;i++) {
 			if(i<10) {
 				System.out.print("Digite um valor para o primeiro vetor ("+(i+1)+"/10): ");

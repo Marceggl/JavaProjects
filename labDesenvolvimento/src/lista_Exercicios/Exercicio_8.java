@@ -27,13 +27,13 @@ public class Exercicio_8 {
 	for(i=0;i<5;i++) {
 		custo = (float) (1000/consumo[i]);
 		gasto = (float) (custo*2.25);
-		System.out.printf("%d - %s - %.2f - %.2f Litros - %.2f \n", (i+1), modelos[i], consumo[i], custo, gasto);
+		System.out.printf("%d - %s - %.2f - %.2f Litros - R$%.2f \n", (i+1), modelos[i], consumo[i], custo, gasto);
 		//Achar o mais econômico
 		if(menor < consumo[i]) {
 			menor = (float) consumo[i];
 			menorCons = i;
 		}
 	}
-	System.out.print("O carrp mais econômico é: " + modelos[menorCons]);
+	System.out.print("O carro mais econômico é: " + modelos[menorCons]);
 	}
 }
